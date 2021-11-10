@@ -1,0 +1,74 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-10T01:47:19.494Z",
+        "line": 4,
+        "name": "Realiza login",
+        "description": "",
+        "id": "teste-login-usuario;realiza-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "abre o browser",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "user clica em LogIn",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "user preenche campo de username e password",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "user clica em logar",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "valida campo de Usuario ativo",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@T0001"
+          }
+        ]
+      }
+    ],
+    "name": "Teste login usuario",
+    "description": "",
+    "id": "teste-login-usuario",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/login/LoginTest.feature",
+    "tags": []
+  }
+]
