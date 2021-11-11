@@ -1,6 +1,6 @@
 Feature: Teste remove produto do carrinho
 
-  @T0002
+  @T0003
   Scenario: Remover produto do carrinho
     Given abre o browser
     And user clica em LogIn

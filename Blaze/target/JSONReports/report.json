@@ -3,57 +3,82 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-11-10T01:47:19.494Z",
-        "line": 4,
+        "start_timestamp": "2021-11-11T01:47:21.989Z",
+        "line": 13,
         "name": "Realiza login",
         "description": "",
-        "id": "teste-login-usuario;realiza-login",
+        "id": "teste-login-usuario;realiza-login;;2",
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 3456000000,
+              "status": "passed"
             },
             "line": 5,
             "name": "abre o browser",
-            "match": {},
+            "match": {
+              "location": "br.com.keeggo.test.login.LoginSteps.abre_o_browser()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 2048000000,
+              "status": "passed"
             },
             "line": 6,
             "name": "user clica em LogIn",
-            "match": {},
+            "match": {
+              "location": "br.com.keeggo.test.login.LoginSteps.user_clica_em_LogIn()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 2093000000,
+              "status": "passed"
             },
             "line": 7,
-            "name": "user preenche campo de username e password",
-            "match": {},
+            "name": "user preenche campo de saladini e 0123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "saladini",
+                  "offset": 23
+                },
+                {
+                  "val": "0123",
+                  "offset": 34
+                }
+              ],
+              "location": "br.com.keeggo.test.login.LoginSteps.user_preenche_campo_de_username_e_password(java.lang.String,java.lang.String)"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 2039000000,
+              "status": "passed"
             },
             "line": 8,
             "name": "user clica em logar",
-            "match": {},
+            "match": {
+              "location": "br.com.keeggo.test.login.LoginSteps.user_clica_em_logar()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 668000000,
+              "status": "passed"
             },
             "line": 9,
             "name": "valida campo de Usuario ativo",
-            "match": {},
+            "match": {
+              "location": "br.com.keeggo.test.login.LoginSteps.valida_campo_de_Usuario_ativo()"
+            },
             "keyword": "Then "
           }
         ],
